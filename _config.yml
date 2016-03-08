@@ -2,11 +2,11 @@
 permalink:           pretty
 
 # Setup
-title:               He Dejing
+title:               tomstream
 tagline:             Zhejiang University, Computer Science and Technology
-url:                 http://hedejing.github.io
+url:                 http://tomstream.github.io
 paginate:            1
-baseurl:             "http://hedejing.github.io"
+baseurl:             "http://tomstream.github.io"
 
 # Assets
 #
@@ -18,13 +18,13 @@ sass:
 # About/contact
 author:
   name:              He Dejing
-  url:               http://hedejing.github.io
-  email:             hedejing@outlook.com
+  url:               http://tomstream.github.io
+  email:             tomstream@foxmail.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/hedejing/hedejing.github.io
+  repo:              https://github.com/tomstream/tomstream.github.io
 
 # Gems
 gems:
