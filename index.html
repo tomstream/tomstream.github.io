@@ -1,33 +1,36 @@
 ---
-layout: default
-title: Home
+layout: base
+title: Zongtao Liu
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<main>
+    <h2>About Me</h2>
+        <p>I am a master student of <a href="http://www.zju.edu.cn">Zhejiang University</a>, majoring in <a href="http://www.cs.zju.edu.cn/">Computer Science and Technology</a>. Currently I am a research assistant co-advised by <a href="http://yangy.org">Yang Yang</a> and <a href="https://person.zju.edu.cn/wufei">Fei Wu</a>. I also fortunately have <a href="https://www.chenhaot.com">Chenhao Tan</a> from University of Colorado Boulder as my external advisor.
+        
+        <br><br>
+        My research focuses on urban computing with heterogeneous data sources:
+        <ul>
+            <li> Migrant integration in urbanization</li>
+            <li> Early departure of new migrants</li>
+            <li> Imputation for residents' electricity data </li>
+        </ul>
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+    <h2>Publications</h2>
+    <li><b>Zongtao Liu</b>, Yang Yang, Wei Huang, Zhongyi Tang, Ning Li and Fei Wu. How Do Your Neighbors Disclose Your Information: Social-Aware Time Series Imputation. In Proceedings of the Twenty-Eighth World Wide Web Conference (<a href="https://www2019.thewebconf.org/">WWW'19</a>), 2019. (accepted) [<a href="/publications/imputation.pdf">PDF</a>]</li>
+    <li> Yang Yang, <b>Zongtao Liu</b>, Chenhao Tan, Fei Wu, Yueting Zhuang, and Yafeng Li. To Stay or to Leave: Churn Prediction for Urban Migrants in the Initial Period. In Proceedings of the Twenty-Seventh World Wide Web Conference (<a href="https://www2018.thewebconf.org/">WWW'18</a>), 2018, pages 967-976. [<a href="/publications/migrant_churn.pdf">PDF</a>] [<a href="/publications/www_migrant_slides.pdf">Slides</a>] [<a href="http://yangy.org/data.html">Data</a>] </li>
+    <li>Yang Yang, Chenhao Tan, <b>Zongtao Liu</b>, Fei Wu, and Yueting Zhuang. Urban Dreams of Migrants: A Case Study of Migrant Integration in Shanghai. In Proceedings of the 32nd AAAI Conference on Artificial Intelligence (<a href="http://www.aaai.org/Conferences/AAAI/aaai18.php">AAAI'18</a>), 2018, pages 507-514. [<a href="/publications/urban_dream.pdf">PDF</a>]</li>
 
-    {{ post.content }}
-  </article>
-  {% endfor %}
-</div>
+    <h2>Selected Awards</h2>
+    <ul>
+        <li> 2018, awarded Vmware Excellent Student Scholarship(<em>Top 5%</em>)</li>
+        <li> 2016, awarded Excellent Student Third-Class Scholarship(<em>Top 15%</em>)</li>
+        <li> 2015, awarded Vmware Excellent Student Third-Class Scholarship(<em>Top 15%</em>)</li>
+        <li> 2014, awarded Vmware Excellent Student Second-Class Scholarship(<em>Top 10%</em>)</li>
+    </ul>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+    <h2>Contact Me</h2>
+    <p>Email: tomstream@zju.edu.cn</p>
+    <p>Wechat: tomstream2013</p>
+    <br><br>
+</main>
+

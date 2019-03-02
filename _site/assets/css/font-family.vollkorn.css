@@ -1,0 +1,63 @@
+/* latin */
+@font-face {
+  font-family: 'Vollkorn';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Vollkorn Regular'), local('Vollkorn-Regular');
+  src: url('../font/vollkorn/regular.eot');
+  src: url('../font/vollkorn/regular.eot?#iefix') format('embedded-opentype'),
+       url('../font/vollkorn/regular.woff2') format('woff2'),
+       url('../font/vollkorn/regular.woff') format('woff'),
+       url('../font/vollkorn/regular.ttf') format('truetype'),
+       url('../font/vollkorn/regular.svg#vollkornregular') format('svg');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: normal;
+    src: url('../font/vollkorn/Vollkorn-Italic.ttf') format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 600; /* Semi-Bold */
+    src: url('../font/vollkorn/Vollkorn-SemiBold.ttf') format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 600; /* Semi-Bold */
+    src: url('../font/vollkorn/Vollkorn-SemiBoldItalic.ttf') format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../font/vollkorn/Vollkorn-Bold.ttf') format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: bold;
+    src: url('../font/vollkorn/Vollkorn-BoldItalic.ttf') format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 900; /* Black */
+    src: url('../font/vollkorn/Vollkorn-Black.ttf') format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 900; /* Black */
+    src: url('../font/vollkorn/Vollkorn-BlackItalic.ttf') format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}

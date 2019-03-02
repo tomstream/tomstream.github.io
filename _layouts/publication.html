@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+<div class="wrapper">
+  {% include title.html %}
+  <main>
+    <div class="publication-page">
+      <h1>
+        {% if page.available %} {{ page.title }}
+        {% else %} Anonymous Submission
+        {% endif %}
+      </h1>
+
+      <p>{{ page.authors }}</p>
+
+      {% if page.manuscript %}
+        {% if page.reviewing %}
+          <!-- Under review of the <em>{{ page.booktitle }}</em>. {{ page.year }}. -->
+          Under reviewing.
+        {% else %}
+          {% unless post.arxiv %} <em>In progress</em>. {% endunless %}
+        {% endif %}
+      {% else %}
+        In <em>{{ page.booktitle }}</em>. {{ page.year }}.
+      {% endif %}
+
+      {% if page.paper %} <a href="{{ page.paper }}">[paper]</a> {% endif %}
+      {% if page.poster %} <a href="{{ page.poster }}">[poster]</a> {% endif %}
+      {% if page.code %} <a href="{{ page.code }}">[code]</a> {% endif %}
+      {% if page.arxiv %} <a href="{{ page.arxiv }}">[arXiv]</a> {% endif %}
+
+      <hr/>
+      <h3>Abstract</h3>
+      {% if page.available %} {{ content }}
+      {% else %} (Not available due to the review policy or in progress)
+      {% endif %}
+    </div>
+  </main>
+  {% include foot.html %}
+</div>
+</body>
+</html>

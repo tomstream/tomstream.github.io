@@ -1,0 +1,17 @@
+<header>
+    {% if site.configs %}
+    <div class="logo-container">
+        <a class="logo" href="{{ site.url }}{{ site.configs.logo }}" style="background-image: url('{{ site.url }}{{ site.configs.logo }}')"></a>
+    </div>
+    {% endif %}
+
+    {% if site.configs %}
+    <div class="title-container"><h1>{{ site.configs.title }}</h1></div>
+    {% endif %}
+
+    {% if site.configs %}
+    <div class="tagline-container"><p>{{ site.configs.tagline }}</p></div>
+    {% endif %}
+    <hr />
+    {% include sidebar.html %}
+</header>
