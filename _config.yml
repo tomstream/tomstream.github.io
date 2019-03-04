@@ -7,7 +7,7 @@ configs:
   # an avatar or logo (optional)
   logo: "/images/miao.jpeg"
   # author will appear under the avatar (optional)
-  title: "Zongtao Liu"
+  title: "Zongtao Liu (刘宗涛)"
   # tagline will appear under the title (optional)
   tagline: "tomstream@zju.edu.cn <br> Where there's hope, there's a trial."
   # if include_analytics is true, the content of the analytics.html include will
