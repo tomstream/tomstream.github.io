@@ -5,7 +5,7 @@ navi: ''
 # compass configuration
 configs:
   # an avatar or logo (optional)
-  logo: "/images/tmp``.jpeg"
+  logo: "/images/miao.jpeg"
   # author will appear under the avatar (optional)
   title: "Zongtao Liu"
   # tagline will appear under the title (optional)
